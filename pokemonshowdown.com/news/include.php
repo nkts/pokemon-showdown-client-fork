@@ -12,7 +12,7 @@ function readableDate($time=0) {
 function renderNews() {
 	global $latestNewsCache, $newsCache;
 	$buf = '';
-	$count = 0;
+	// $count = 0;
 	// foreach ($latestNewsCache as $topic_id) {
 	// 	$topic = $newsCache[$topic_id];
 	// 	$buf .= '<div class="newsentry" data-newsid="'.$topic_id.'" data-date="'.$topic['date'].'">';

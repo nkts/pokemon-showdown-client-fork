@@ -211,3 +211,5 @@ replaysContents = replaysContents.replace(URL_REGEX, addCachebuster);
 fs.writeFileSync('replay.pokemonshowdown.com/index.php', replaysContents);
 
 console.log("DONE");
+
+console.log("FINISHED UPDATE SCRIPT");

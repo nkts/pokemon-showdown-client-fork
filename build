@@ -72,3 +72,4 @@ if (full) {
 		execSync(`node ./replays/build`, options);
 	} catch (e) {}
 }
+console.log("FINISH BUILD SCRIPT");
